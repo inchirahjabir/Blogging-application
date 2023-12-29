@@ -2,7 +2,10 @@
 # Blogging application - ECE Webtech project
 
 ### Introduction
-This is a travel blog website with a home page, about us page, contact us page and login/logout option. After they login the user can view their profile directly after logging in or by clicking on the icon in the header. They can also create a new post that will be saved in the SUpabase database. For now, the user can only login by creating a username and password as Github Oauth only worked once in my project. I had to choose between implementing Github and accessing the Supabase database for my website because of some problems with ports that I couldn't solve. The website also offers a dark/light theme. 
+
+This ECE Webtech project is a travel blog that combines functionality and immersive storytelling. Within this blog, I've designed a home page as the portal to an "Articles" sections where users can find posts related to travel, an "About Us" section where the user can learn more about me, a "Contact Us" feature, and a user-friendly login/logout option that uses Github OAuth or email sign up/sign in. Post-login, users transition to their profiles. After they login the user can view their profile directly after logging in or by clicking on the icon in the header. They can also create a new post that will be saved in the SUpabase database.
+
+This application's purpose lies in the ability for users to effortlessly create and share their travel stories, tips, guides that will be stored in the Supabase database. Beyond articles, users can choose between a visually soothing dark or light theme, ensuring a personalized browsing experience.
 
 ### Local Installation and Usage
 
