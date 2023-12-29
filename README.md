@@ -26,7 +26,7 @@ npm run build
 npm start
 ```
 
-### Usage
+### Local Usage
 
 - The website is accessible on : http://localhost:3000
 
@@ -34,8 +34,8 @@ npm start
 
 ## Deliverables 
 
-- Vercel URL: *place your URL*
-- Supabase project URL: *place your URL*
+- Vercel URL: https://vercel.com/inchirahs-projects/ece-webtech-2023-fall-jabir-grp02
+- Supabase project URL: https://supabase.com/dashboard/project/sswzjvzqjynlywxjbplh
 
 ## Authors
 
