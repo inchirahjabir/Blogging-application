@@ -4,7 +4,7 @@
 ### Introduction
 This is a travel blog website with a home page, about us page, contact us page and login/logout option. After they login the user can view their profile directly after logging in or by clicking on the icon in the header. They can also create a new post that will be saved in the SUpabase database. For now, the user can only login by creating a username and password as Github Oauth only worked once in my project. I had to choose between implementing Github and accessing the Supabase database for my website because of some problems with ports that I couldn't solve. The website also offers a dark/light theme. 
 
-### Installation and Usage
+### Local Installation and Usage
 
 - Clone this repository and go to the directory:
  ```bash
@@ -29,8 +29,8 @@ npm start
 ### Local Usage
 
 - The website is accessible on : http://localhost:3000
-
-- The Supabase database is accessible on : http://localhost:54323
+- 
+- The Supabase local database is accessible at : http://localhost:54321
 
 ## Deliverables 
 
@@ -56,7 +56,7 @@ npm start
 * **Git usage**
   * Grade: 2
   * Comments: I lost all my previsous commits because I just created this repository and I am doing my project solo so I only have the commits for my project files
-  * Task feedback: It was okay, I tried my best to respect the conventianal commits
+  * Task feedback: It was okay, I tried my best to respect the conventional commits
 * **Code quality**
   * Grade: 4
   * Comments: I added comments to explain my code and tried my best to make it straightforward.
@@ -75,16 +75,16 @@ npm start
   * Comments: I created a header component that I used for all the pages.
   * Task feedback: It was easy
 * **Login and profile page**
-  * Grade: 1
-  * Comments: Github worked once but i had to change the supabase url to access the database and i lost the Github Oauth. The problem is that I couldn't figureout what urls to use with my new supabase url. 
-  * Task feedback: I tried so hard to do this task but I couldn't. The rest of my project was tested using a regular sign up
+  * Grade: 4
+  * Comments: Github Oauth works fine on Vercel and it shows the user's information by fetching data from the Users Authentication table.
+  * Task feedback: I tried with a lot of links to make it work on Vercel and there were some things that I couldn't understand but it works well now.
 * **Post creation and display**
   * Grade: 6
-  * Comments: I created a new class to create posts and I modified the display in the articles page based on the creation date. I also used React for pagination.
-  * Task feedback: It was time consuming and I was not familiar with React pagination so I had to install and do some research on it.
+  * Comments: I created a new class to create posts and I modified the display in the articles page based on the creation date. I also used React for pagination. The class worked fine using npm run dev but I can't create posts on Vercel. Whenever, I hit the submit button, nothing is submitted. The same thing happened for the pagination, it showed regular number using npm run dev but it has a different input on Vercel.
+  * Task feedback: It was time consuming because I kept trying to understand why the results were so different uwhen i used npm run dev but I couldn't understand why.
 * **Comment creation and display**
   * Grade: 4
-  * Comments: I created a new database comments that i linked to the articles database. I then linked the databases through a foreign key and was able to fetch datab and insert data.
+  * Comments: I created a new database comments that I linked to the articles database. I then linked the databases through a foreign key and was able to fetch datab and insert data.
   * Task feedback: It wasn't really hard, I just forgot to add RLS polocies so I couldn't see or insert comments at first
 * **Post modification and removal**
   * Grade: 4
@@ -123,11 +123,7 @@ npm start
 
 * ***Add Likes***   
   * Grade: 2
-  * Comments: I added a likes colums for posts and imported the FontAwesome library to add the like icon to make the feature look better. 
-
-## Miscellaneous
-
-SInce I couldn't figure out what url address to use for the callback what env variables to change, I couldn't successfully implement both Github Oauth and access to the Supabase database. At first, I used http://localhost:8000 for the supabase url and http://localhost:8000/v1/auth/callback for the redirect url and Github Oauth worked fine. However, I couldn't access the database so I had to change my supabase url to http://localhost:54321 to access thedatabase and I tried to use http://localhost:54321/v1/auth/callback to implement Oauth but it kep giving me error messages. 
+  * Comments: I added a likes colums for posts and imported the FontAwesome library to add the like icon to make the feature look better.  
 
 ### Course Feedback
 
