@@ -65,7 +65,6 @@ npm start
   * Grade: 4
   * Comments: I added some pictures for certain pages and followed a specific color plalette for the website
   * Task feedback: I think the website's design is cohesive and looks pretty goodbut it was long and time consuming
-
 * **Home page**
   * Grade: 2
   * Comments: I created a home page that displays all the information and has links to all the pages
@@ -79,7 +78,7 @@ npm start
   * Comments: Github Oauth works fine on Vercel and it shows the user's information by fetching data from the Users Authentication table.
   * Task feedback: I tried with a lot of links to make it work on Vercel and there were some things that I couldn't understand but it works well now.
 * **Post creation and display**
-  * Grade: 6
+  * Grade: 4
   * Comments: I created a new class to create posts and I modified the display in the articles page based on the creation date. I also used React for pagination. The class worked fine using npm run dev but I can't create posts on Vercel. Whenever, I hit the submit button, nothing is submitted. The same thing happened for the pagination, it showed regular number using npm run dev but it has a different input on Vercel.
   * Task feedback: It was time consuming because I kept trying to understand why the results were so different uwhen i used npm run dev but I couldn't understand why.
 * **Comment creation and display**
