@@ -98,9 +98,9 @@ npm start
   * Comments: I implemented Unsplash API in the [slug].js file to generate random images for each article
   * Task feedback: I am not familiar with this type of API so it took me some time to understand it but it wasn't really hard.
 * **Resource access control**
-  * Grade: 2
-  * Comments: I tried to use RLS of Supabase to prevent access to some data depending on the user but it wouldn't allow me to access/insert the data at all so I disabled RLS for some tables. I ensured that users won't be able to access it in my code though by implementing restrictions to check if the user is authenticated or if the user is the same as the author to remove/edit posts. 
-  * Task feedback: It was hard, I tried for a long time to make the RLS policies work but even though the user was authenticated, the tables couldn't be accessed/modified even though I allowed it in my policy.
+  * Grade: 4
+  * Comments: I used RLS of Supabase to prevent access to some data depending on the user. I also ensured that users won't be able to access some information in my code  by implementing restrictions to check if the user is authenticated or if the user is the same as the author to remove/edit posts. 
+  * Task feedback: It was hard, I tried for a long time to make the RLS policies work but sometimes even though the user was authenticated, the tables couldn't be accessed/modified even though I allowed it in my policy.
 * **Account settings**
   * Grade: 2
   * Comments: The account settings are accessible from the user's profile page. Since the user's data is in authentication, the profile page only displays the user's email. I created a form where the user could modify their information but I am not directly allowed to madify authentication related information.
