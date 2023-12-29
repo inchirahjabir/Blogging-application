@@ -57,6 +57,12 @@ export default function ArticlePage({ article, initialComments, isDarkMode }) {
     setEditedArticle((prevArticle) => ({ ...prevArticle, [name]: value }));
   };
 
+  // Handle change in input for comments
+  const handleCommentInputChange = (e) => {
+  const { name, value } = e.target;
+  setNewComment((prevComment) => ({ ...prevComment, [name]: value }));
+  };
+
   // Remove function
   const handleRemove = async () => {
     try {
@@ -282,7 +288,7 @@ export default function ArticlePage({ article, initialComments, isDarkMode }) {
               <textarea
                 name="content"
                 value={newComment.content}
-                onChange={handleInputChange}
+                onChange={handleCommentInputChange}
                 className={`w-full rounded border p-2 ${
                   isDarkMode ? 'bg-gray-300 text-white' : 'bg-white text-gray-800'
                 }`}
@@ -296,7 +302,7 @@ export default function ArticlePage({ article, initialComments, isDarkMode }) {
                 type="email"
                 name="email"
                 value={newComment.email}
-                onChange={handleInputChange}
+                onChange={handleCommentInputChange}
                 className={`w-full rounded border p-2 ${
                   isDarkMode ? 'bg-gray-300 text-white' : 'bg-white text-gray-800'
                 }`}
