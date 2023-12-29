@@ -37,7 +37,7 @@ npm start
 
 ## Deliverables 
 
-- Vercel URL: https://vercel.com/inchirahs-projects/ece-webtech-2023-fall-jabir-grp02
+- Vercel URL: https://ece-webtech-2023-fall-jabir-grp02.vercel.app
 - Supabase project URL: https://supabase.com/dashboard/project/sswzjvzqjynlywxjbplh
 
 ## Authors
