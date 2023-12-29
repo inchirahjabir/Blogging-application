@@ -29,7 +29,7 @@ npm start
 ### Local Usage
 
 - The website is accessible on : http://localhost:3000
-- 
+ 
 - The Supabase local database is accessible at : http://localhost:54321
 
 ## Deliverables 
@@ -39,7 +39,7 @@ npm start
 
 ## Authors
 
-- Inchirah Jabir, MSc DMIA (SI gr02)
+- Inchirah Jabir, MSc DMIA (ING4 SI gr02)
 
 ## Evaluation
 
