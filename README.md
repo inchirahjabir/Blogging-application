@@ -127,10 +127,6 @@ npm start
   * Grade: 2
   * Comments: I added a likes colums for posts and imported the FontAwesome library to add the like icon to make the feature look better.  
 
-### Course Feedback
-
-I enjoyed the course, I learned a lot especially because I was not used to developing a website using these specific technologies. It was a little hard because I had some problems with my computer and I found the tasks for the final project a little harder then what we've done in the labs. This project was hard for me because there was no communication with my group. I also lost all my labs and commits because my group delete all the branches along with the commits so it was hard for me to create this new repository with my final project. As there was no communication with my group, we had to split and I am submitting my final project alone. 
-
 ### Project Reuse
 
 - [x] We authorize the professors to use our project as an example for the next year students (facultative).
