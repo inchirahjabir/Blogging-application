@@ -11,11 +11,11 @@ This application's purpose lies in the ability for users to effortlessly create 
 
 - Clone this repository and go to the directory:
  ```bash
-https://github.com/inchirahjabir/ece-webtech-2023-fall-Jabir.git
+https://github.com/inchirahjabir/Blogging-application.git
 ```
 
 ```bash
-cd ece-webtech-2023-fall-Jabir/app
+cd Blogging-application/app
 ```
 
 - Install dependencies:
